@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Kalam:wght@700&family=Lora:ital@1&family=Noto+Serif:ital,wght@1,300&family=Protest+Revolution&family=Protest+Riot&family=Roboto+Slab:wght@300&family=Source+Serif+4:ital,opsz@1,8..60&display=swap');
+
+/* App.css */
+* {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+html {
+  background: #44A08D;
+  background: -webkit-linear-gradient(to right, #093637, #44A08D);
+  background: linear-gradient(to right, #093637, #44A08D);
+
+  /* background-color: #2C5364; *np/
+  /* background-color: #f7f7f7; */
+}
+
+.app-name {
+  font-size: 2.3rem;
+  color: #0D9276;
+  margin-bottom: 16px;
+  font-family: 'Protest Riot', sans-serif;
+
+}
+
+.mainn:hover {
+  color: #0D9276;
+
+}
+
+.mainn {
+  font-size: 2.3rem;
+  color: #561C24;
+  margin-bottom: 16px;
+  font-family: 'Protest Riot', sans-serif;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  min-height: 440px;
+  background-color: #E8D8C4;
+  text-align: center;
+  margin: 101px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-search {
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 2px solid rgb(204, 204, 204);
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+  background-color: #e5eef0;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  padding: 12px 40px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: #1D2B53;
+}
+
+.city-search:focus {
+  width: 100%;
+}
+
+.city-name {
+  font-size: 1.5rem;
+  color: #33186B;
+  font-family: 'Lora', serif;
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #777;
+}
+
+.icon-temp {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e2432;
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+}
+
+span {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.deg {
+  font-size: 1.3rem;
+  vertical-align: super;
+}
+
+.des-wind {
+  font-weight: 500;
+  color: #2C3333;
+  font-family: 'Kalam', cursive;
+
+
+}
+
+.error-message {
+  display: block;
+  text-align: center;
+  font-family: 'Source Serif 4', serif;
+  color: #d32f2f;
+  font-size: 24px;
+  margin-top: auto;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Loader>div {
+  margin: 0 auto;
+}
+
+.weather-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
